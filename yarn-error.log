@@ -1,0 +1,70 @@
+Arguments: 
+  /Users/d.savkin/.nvm/versions/node/v10.12.0/bin/node /Users/d.savkin/.nvm/versions/node/v10.12.0/bin/yarn add @zeit/next-typescript
+
+PATH: 
+  /Users/d.savkin/.nvm/versions/node/v10.12.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND maven.osmp.ru maven.osmp.ru:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+
+npm manifest: 
+  {
+    "name": "regina",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "NODE_ENV=dev node server.js",
+      "build": "next build",
+      "start": "NODE_ENV=prod forever start server.js",
+      "analyze": "ANALYZE=1 next build"
+    },
+    "author": "dmitrsavk",
+    "license": "ISC",
+    "dependencies": {
+      "babel-plugin-inline-react-svg": "^0.5.3",
+      "babel-plugin-styled-components": "^1.5.1",
+      "body-parser": "^1.18.3",
+      "connect-pg-simple": "^5.0.0",
+      "cookie-parser": "^1.4.3",
+      "es6-promise": "^4.2.4",
+      "express-session": "^1.15.6",
+      "file-loader": "^1.1.11",
+      "isomorphic-unfetch": "^2.0.0",
+      "moment": "^2.22.2",
+      "next": "^6.0.3",
+      "next-redux-saga": "^3.0.0-beta.1",
+      "next-redux-wrapper": "^2.0.0-beta.6",
+      "react": "^16.4.1",
+      "react-dom": "^16.4.1",
+      "react-media": "^1.8.0",
+      "react-parallax": "^1.8.0",
+      "react-redux": "^5.0.7",
+      "redux": "^4.0.0",
+      "redux-devtools-extension": "^2.13.5",
+      "redux-saga": "^0.16.0",
+      "styled-components": "^3.3.3",
+      "url-loader": "^1.0.1",
+      "webpack-bundle-analyzer": "^2.13.1"
+    },
+    "devDependencies": {
+      "babel-plugin-inline-import-data-uri": "^1.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
